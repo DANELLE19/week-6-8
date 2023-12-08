@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather Forecast</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+      <div class="container">
+      <h1>Weather Forecast</h1>
+
+      <div class="current-date-time">Current Date and Time: <span id="date-time"></span></div>
+
+      <form id="search-form">
+        <input type="text" class="search-bar" id="cityInput" placeholder="Enter a city">
+        <button type="submit">Search</button>
+      </form>
+      
+      <h2 class="current-city">Current City: <span id="city">Nababeep</span></h2>
+      <h2 class="current-temperature">Temperature: <span id="temperatureElement">30°C</span></h2>
+      
+      <div class="forecast">
+          <h2>5-Day Forecast for Nababeep</h2>
+          <div class="forecast-card">
+              <div class="day">Thursday</div>
+              <div class="temperature-range">30°C | 10°C</div>
+              <div class="weather-description">Mostly sunny</div>
+          </div>
+          <div class="forecast-card">
+              <div class="day">Friday</div>
+              <div class="temperature-range">25°C | 7°C</div>
+              <div class="weather-description">Partly cloudy</div>
+              
+        </div>
+        <div class="forecast-card">
+            <div class="day">Saturday</div>
+            <div class="temperature-range">25°C | 10°C</div>
+            <div class="weather-description">Sunny</div>
+          </div>
+        <div class="forecast-card">
+            <div class="day">Sunday</div>
+            <div class="temperature-range">26°C | 9°C</div>
+            <div class="weather-description">Cloudy</div>
+        </div>
+        <div class="forecast-card">
+            <div class="day">Monday</div>
+            <div class="temperature-range">28°C | 12°C</div>
+            <div class="weather-description">Sunny</div>  
+  </div>
+      </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
+

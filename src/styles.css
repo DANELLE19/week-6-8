@@ -1,0 +1,69 @@
+body {
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 9px;
+    font-size: 16px;
+}
+
+.current-city {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.current-temperature {
+    font-size: 30px;
+    color: #d63384;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.forecast {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.forecast-card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #adb5bd;
+    border-radius: 100px;
+}
+
+.day {
+    font-size: 16px;
+    color: #d63384;
+    font-weight: bold;
+}
+
+.temperature-range {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.weather-description {
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+}
